@@ -21,6 +21,7 @@ def read_line(filename):
 count1 = read_line(sys.argv[1])
 count2 = read_line(sys.argv[2])
 
+
 if (count2 > count1):
     print("reject")
 else:
