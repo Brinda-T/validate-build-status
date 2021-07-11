@@ -9,12 +9,12 @@ def read_line(filename):
         data = fd.readline()
         if(data.find(substring) > 0):
             count = count + 1
-        print("len : %d, %s" %(len(data), data))
-        print("count:", count)
+        #print("len : %d, %s" %(len(data), data))
 
         if (len(data) <= 0):
             break
-
+    print("count:", count)
+    
     fd.close
     return count
 
